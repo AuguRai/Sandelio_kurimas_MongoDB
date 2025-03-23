@@ -3,6 +3,13 @@ Pagrindinė funkcionalumo dalis apima produktų registravimą, sandėlių valdym
 Programoje galima vykdyti šiuos veiksmus: pridėti, 
 gauti informaciją apie produktus ir sandėlius, pašalinti produktus ar sandėlius, taip pat sekti sandėlių inventorių ir jų vertę.
 
+**Vienas iš būdų paleisti programą naudojant Docker Desktop:**
+
+*Atsisiųskite ir susidiekite Docker Desktop
+*Pasileiskite Docker konteinerį: docker run -p 27017:27017 -d mongo
+
+Programos veikimui testuoti galima naudoti Postman.
+
 ## **Operacijos produktams**
 /products (PUT) - leidžia registruoti produktą, suteikiant produktui pavadinimą, kategoriją ir kainą. Jeigu trūksta kokios nors informacijos arba kaina nėra teisinga, bus grąžinamas klaidos pranešimas.
 
